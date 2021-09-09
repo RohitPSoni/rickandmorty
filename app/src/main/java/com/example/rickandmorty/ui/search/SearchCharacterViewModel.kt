@@ -1,4 +1,4 @@
-package com.example.rickandmorty.ui.characters.search
+package com.example.rickandmorty.ui.search
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope

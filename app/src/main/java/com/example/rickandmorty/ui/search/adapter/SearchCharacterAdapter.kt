@@ -1,4 +1,4 @@
-package com.example.rickandmorty.ui.characters.search.adapter
+package com.example.rickandmorty.ui.search.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -9,7 +9,7 @@ import com.example.rickandmorty.databinding.ItemCharacterBinding
 import com.example.rickandmorty.ext.clear
 import com.example.rickandmorty.ext.load
 import com.example.rickandmorty.local.entity.CharacterEntity
-import com.example.rickandmorty.ui.characters.search.adapter.SearchCharacterAdapter.SearchCharacterViewHolder
+import com.example.rickandmorty.ui.search.adapter.SearchCharacterAdapter.SearchCharacterViewHolder
 
 class SearchCharacterAdapter(
     private val callback:

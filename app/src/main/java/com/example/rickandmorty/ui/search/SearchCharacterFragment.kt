@@ -1,4 +1,4 @@
-package com.example.rickandmorty.ui.characters.search
+package com.example.rickandmorty.ui.search
 
 import android.os.Bundle
 import androidx.core.widget.addTextChangedListener
@@ -8,7 +8,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.rickandmorty.R
 import com.example.rickandmorty.base.BaseFragment
 import com.example.rickandmorty.databinding.FragmentSearchCharacterBinding
-import com.example.rickandmorty.ui.characters.search.adapter.SearchCharacterAdapter
+import com.example.rickandmorty.ui.search.adapter.SearchCharacterAdapter
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class SearchCharacterFragment : BaseFragment<FragmentSearchCharacterBinding>() {

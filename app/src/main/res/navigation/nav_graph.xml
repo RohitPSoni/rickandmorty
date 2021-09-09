@@ -38,7 +38,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchCharacterFragment"
-        android:name="com.example.rickandmorty.ui.characters.search.SearchCharacterFragment"
+        android:name="com.example.rickandmorty.ui.search.SearchCharacterFragment"
         android:label="SearchCharacterFragment"
         tools:layout="@layout/fragment_search_character">
         <action
