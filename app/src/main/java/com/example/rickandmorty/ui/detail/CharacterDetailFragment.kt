@@ -28,8 +28,13 @@ class CharacterDetailFragment :
     }
 
     override fun bindData() {
-        characterDetailViewModel.setCharacter(args.characterExtra)
-        ViewCompat.setTransitionName(viewBinder.ivAvatar, "avatar_${args.characterExtra.id}")
-        ViewCompat.setTransitionName(viewBinder.tvName, "name_${args.characterExtra.id}")
+        ViewCompat.setTransitionName(viewBinder.ivAvatar, "avatar_${args.characterExtra}")
+        ViewCompat.setTransitionName(viewBinder.tvName, "name_${args.characterExtra}")
+        with(characterDetailViewModel) {
+            characterData.observe(this@CharacterDetailFragment, {
+                viewBinder.episodes.adapter =  EpisodesAdapter(it.episodes ?: emptyList())
+            })
+            getCharacter(args.characterExtra)
+        }
     }
 }

@@ -14,6 +14,9 @@ interface CharacterDao {
     @Query("SELECT * FROM `CharacterEntity`")
     suspend fun getAllCharacters(): List<CharacterEntity>?
 
+    @Query("SELECT * FROM `CharacterEntity` WHERE id = :id")
+    suspend fun getCharacterFromId(id: Int): CharacterEntity?
+
     @Query("SELECT * FROM `CharacterEntity` WHERE name LIKE '%' || :namePattern ||'%'")
     suspend fun getFilteredName(namePattern: String): List<CharacterEntity>?
 }

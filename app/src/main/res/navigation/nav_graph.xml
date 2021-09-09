@@ -30,9 +30,11 @@
         android:name="com.example.rickandmorty.ui.detail.CharacterDetailFragment"
         android:label="CharacterDetailFragment"
         tools:layout="@layout/fragment_character_detail">
+
         <argument
             android:name="character_extra"
-            app:argType="com.example.rickandmorty.local.entity.CharacterEntity" />
+            app:argType="integer"
+            android:defaultValue="1" />
     </fragment>
     <fragment
         android:id="@+id/searchCharacterFragment"

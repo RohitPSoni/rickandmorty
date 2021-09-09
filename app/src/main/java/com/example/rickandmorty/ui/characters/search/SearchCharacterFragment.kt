@@ -36,7 +36,7 @@ class SearchCharacterFragment : BaseFragment<FragmentSearchCharacterBinding>() {
             )
             findNavController().navigate(
                 SearchCharacterFragmentDirections.actionSearchCharacterFragmentToCharacterDetailFragment(
-                    character
+                    character.id
                 ),
                 extras
             )

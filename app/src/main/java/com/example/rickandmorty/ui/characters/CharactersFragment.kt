@@ -28,7 +28,7 @@ class CharactersFragment : BaseFragment<FragmentCharactersBinding>() {
             )
             findNavController().navigate(
                 CharactersFragmentDirections.actionCharactersFragmentToCharacterDetailFragment(
-                    character
+                    character.id
                 ),
                 extras
             )

@@ -13,6 +13,8 @@ interface LocalDatabaseMapper {
     suspend fun getNameByPattern(pattern: String): List<CharacterEntity>?
 
     suspend fun getAllInfo(): List<CharacterEntity>?
+
+    suspend fun getCharacterById(id: Int): CharacterEntity?
 }
 
 class LocalDatabaseMapperImpl(private val dao: CharacterDao) : LocalDatabaseMapper {
@@ -32,5 +34,9 @@ class LocalDatabaseMapperImpl(private val dao: CharacterDao) : LocalDatabaseMapp
 
     override suspend fun getAllInfo(): List<CharacterEntity>? {
         return dao.getAllCharacters()
+    }
+
+    override suspend fun getCharacterById(id: Int): CharacterEntity? {
+        return dao.getCharacterFromId(id)
     }
 }
