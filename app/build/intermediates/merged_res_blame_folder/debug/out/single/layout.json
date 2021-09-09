@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/rohitsoni/RickAndMorty/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_character.xml",
+        "source": "/Users/rohitsoni/RickAndMorty/app/src/main/res/layout/item_character.xml"
+    },
+    {
+        "merged": "/Users/rohitsoni/RickAndMorty/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_characters.xml",
+        "source": "/Users/rohitsoni/RickAndMorty/app/src/main/res/layout/fragment_characters.xml"
+    },
+    {
+        "merged": "/Users/rohitsoni/RickAndMorty/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_network_state.xml",
+        "source": "/Users/rohitsoni/RickAndMorty/app/src/main/res/layout/item_network_state.xml"
+    },
+    {
+        "merged": "/Users/rohitsoni/RickAndMorty/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/rohitsoni/RickAndMorty/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/rohitsoni/RickAndMorty/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_error.xml",
+        "source": "/Users/rohitsoni/RickAndMorty/app/src/main/res/layout/dialog_error.xml"
+    },
+    {
+        "merged": "/Users/rohitsoni/RickAndMorty/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_character_detail.xml",
+        "source": "/Users/rohitsoni/RickAndMorty/app/src/main/res/layout/fragment_character_detail.xml"
+    },
+    {
+        "merged": "/Users/rohitsoni/RickAndMorty/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_search_character.xml",
+        "source": "/Users/rohitsoni/RickAndMorty/app/src/main/res/layout/fragment_search_character.xml"
+    }
+]

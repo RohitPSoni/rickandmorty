@@ -1,0 +1,68 @@
+com/example/rickandmorty/di/GlideOptions.java
+ com.example.rickandmorty.di.GlideOptions
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/rickandmorty/DataBindingTriggerClass.java
+ com.example.rickandmorty.DataBindingTriggerClass
+com/example/rickandmorty/BuildConfig.java
+ com.example.rickandmorty.BuildConfig
+com/example/rickandmorty/di/GlideRequests.java
+ com.example.rickandmorty.di.GlideRequests
+com/example/rickandmorty/databinding/FragmentCharacterDetailBindingImpl.java
+ com.example.rickandmorty.databinding.FragmentCharacterDetailBindingImpl
+com/bumptech/glide/GeneratedRequestManagerFactory.java
+ com.bumptech.glide.GeneratedRequestManagerFactory
+com/example/rickandmorty/databinding/FragmentSearchCharacterBindingImpl.java
+ com.example.rickandmorty.databinding.FragmentSearchCharacterBindingImpl
+com/bumptech/glide/GeneratedAppGlideModuleImpl.java
+ com.bumptech.glide.GeneratedAppGlideModuleImpl
+com/example/rickandmorty/di/GlideApp.java
+ com.example.rickandmorty.di.GlideApp
+com/example/rickandmorty/databinding/FragmentSearchCharacterBinding.java
+ com.example.rickandmorty.databinding.FragmentSearchCharacterBinding
+com/example/rickandmorty/di/GlideRequest.java
+ com.example.rickandmorty.di.GlideRequest
+com/example/rickandmorty/BR.java
+ com.example.rickandmorty.BR
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/example/rickandmorty/databinding/FragmentCharacterDetailBinding.java
+ com.example.rickandmorty.databinding.FragmentCharacterDetailBinding
+com/example/rickandmorty/databinding/ActivityMainBindingImpl.java
+ com.example.rickandmorty.databinding.ActivityMainBindingImpl
+com/example/rickandmorty/databinding/ItemNetworkStateBinding.java
+ com.example.rickandmorty.databinding.ItemNetworkStateBinding
+com/example/rickandmorty/databinding/DialogErrorBinding.java
+ com.example.rickandmorty.databinding.DialogErrorBinding
+com/example/rickandmorty/databinding/ItemCharacterBindingImpl.java
+ com.example.rickandmorty.databinding.ItemCharacterBindingImpl
+com/example/rickandmorty/generated/callback/OnClickListener.java
+ com.example.rickandmorty.generated.callback.OnClickListener
+ com.example.rickandmorty.generated.callback.OnClickListener$Listener
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/example/rickandmorty/DataBinderMapperImpl.java
+ com.example.rickandmorty.DataBinderMapperImpl
+ com.example.rickandmorty.DataBinderMapperImpl$InnerBrLookup
+ com.example.rickandmorty.DataBinderMapperImpl$InnerLayoutIdLookup
+com/example/rickandmorty/databinding/FragmentCharactersBinding.java
+ com.example.rickandmorty.databinding.FragmentCharactersBinding
+com/example/rickandmorty/databinding/ItemCharacterBinding.java
+ com.example.rickandmorty.databinding.ItemCharacterBinding
+com/example/rickandmorty/databinding/ActivityMainBinding.java
+ com.example.rickandmorty.databinding.ActivityMainBinding
+com/example/rickandmorty/databinding/DialogErrorBindingImpl.java
+ com.example.rickandmorty.databinding.DialogErrorBindingImpl
+com/example/rickandmorty/databinding/FragmentCharactersBindingImpl.java
+ com.example.rickandmorty.databinding.FragmentCharactersBindingImpl
+com/example/rickandmorty/databinding/ItemNetworkStateBindingImpl.java
+ com.example.rickandmorty.databinding.ItemNetworkStateBindingImpl
+com/example/rickandmorty/local/dao/CharacterDao_Impl.java
+ com.example.rickandmorty.local.dao.CharacterDao_Impl
+ com.example.rickandmorty.local.dao.CharacterDao_Impl$1
+ com.example.rickandmorty.local.dao.CharacterDao_Impl$2
+ com.example.rickandmorty.local.dao.CharacterDao_Impl$3
+ com.example.rickandmorty.local.dao.CharacterDao_Impl$4
+com/example/rickandmorty/local/RickAndMortyOffline_Impl.java
+ com.example.rickandmorty.local.RickAndMortyOffline_Impl
+ com.example.rickandmorty.local.RickAndMortyOffline_Impl$1
